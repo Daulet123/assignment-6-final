@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>логин</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <a
+          class="title"
+          href="file:///C:/Users/user/Desktop/web%20project%20enterpreneurship/index.html"
+          >TUTORGO</a
+        >
+        <button
+          style="
+            background-color: transparent;
+            border: none;
+            width: 150px;
+            margin-left: 5%;
+          "
+        >
+          <a
+            class="second"
+            href="file:///C:/Users/user/Desktop/web%20project%20enterpreneurship/findtheteacher.html"
+            >Найти учителя</a
+          >
+        </button>
+        <button
+          style="
+            background-color: transparent;
+            border: none;
+            width: 170px;
+            margin-left: 5%;
+          "
+        >
+          <a
+            class="third"
+            href="file:///C:/Users/user/Desktop/web%20project%20enterpreneurship/teacher.html"
+            >Стать преподавателем</a
+          >
+        </button>
+
+        <a style="margin-left: 40%"><p id="enter">войти</p></a>
+      </div>
+    </header>
+
+    <div id="login_div" style="margin-top: 10%; margin-left: 35%">
+      <p
+        style="
+          color: #08033a;
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 23px;
+          line-height: 22px;
+          padding-left: 15%;
+        "
+      >
+        Регистрация
+      </p>
+
+      <p
+        style="
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 14px;
+          color: #77838f;
+        "
+      >
+        Введите почту и пароль
+      </p>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="username"
+        style="
+          background: #ffffff;
+          border: 1px solid #f3f3f3;
+          box-sizing: border-box;
+          border-radius: 4px;
+          width: 35%;
+          height: 5%;
+          padding: 1%;
+        "
+      />
+
+      <input
+        name="email"
+        id="email"
+        type="text"
+        placeholder="email"
+        style="
+          background: #ffffff;
+          border: 1px solid #f3f3f3;
+          box-sizing: border-box;
+          border-radius: 4px;
+          width: 35%;
+          height: 5%;
+          padding: 1%;
+          margin-top: 1%;
+          display: block;
+        "
+      />
+
+      <input
+        name="password"
+        id="password"
+        type="password"
+        placeholder="password"
+        style="
+          background: #ffffff;
+          border: 1px solid #f3f3f3;
+          box-sizing: border-box;
+          border-radius: 4px;
+          width: 35%;
+          height: 5%;
+          padding: 1%;
+          margin-top: 1%;
+          display: block;
+        "
+      />
+
+      <div style="display: flex; align-items: center">
+        <input type="checkbox" />
+        <p class="">Я согласен с Пользовательским соглашением</p>
+      </div>
+
+      <input id="sighUp" name="signup_submit" value="Sign up" />
+
+      <input id="login" name="login" value="Войти" />
+    </div>
+
+    <div
+      style="display: block"
+      id="user_div"
+      style="margin-top: 10%; margin-left: 35%"
+    >
+      <p>Добро пожаловать</p>
+      <div style="width: 200px; height: 200px">
+        <input type="file" id="photo" />
+        <button id="upload">Upload Image</button>
+        <img id="image" />
+        <input type="text" id="textbox" placeholder="расскажите о себе" />
+        <button id="create">сохранить</button>
+        <p id="text2"></p>
+      </div>
+    </div>
+  </body>
+
+  <footer style="margin-top: 10%">
+    <div style="margin-top: 7%; display: flex">
+      <div>
+        <p
+          style="
+            color: #08033a;
+            font-family: Gotham Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 20px;
+          "
+        >
+          TUTORGO
+        </p>
+
+        <p
+          style="
+            width: 200px;
+            color: #77838f;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+          "
+        >
+          TutorGo - образовательная платформа для продажи и проведения
+          онлайн-курсов
+        </p>
+      </div>
+
+      <div style="margin-left: 10%">
+        <p
+          style="
+            color: #08033a;
+            font-family: Gotham Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 20px;
+            height: 5px;
+          "
+        >
+          О проекте
+        </p>
+
+        <p
+          style="
+            color: #08033a;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            height: 10px;
+          "
+        >
+          Курсы
+        </p>
+
+        <p
+          style="
+            color: #08033a;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            height: 10px;
+          "
+        >
+          Стать преподавателем
+        </p>
+
+        <p
+          style="
+            color: #08033a;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            height: 10px;
+          "
+        >
+          О нас
+        </p>
+
+        <p
+          style="
+            color: #08033a;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            height: 10px;
+          "
+        >
+          Публичная оферта
+        </p>
+      </div>
+
+      <div style="margin-left: 10%">
+        <p
+          style="
+            color: #08033a;
+            font-family: Gotham Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 20px;
+            height: 5px;
+          "
+        >
+          Контакты
+        </p>
+        <p
+          style="
+            color: #08033a;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            height: 20px;
+          "
+        >
+          +7 700 777 77 77
+        </p>
+        <p
+          style="
+            color: #08033a;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            height: 15px;
+          "
+        >
+          info@tutorgo.com
+        </p>
+
+        <img src="social.png" style="margin-top: 10%" alt="" />
+      </div>
+
+      <div style="margin-left: 10%">
+        <p
+          style="
+            color: #08033a;
+            font-family: Gotham Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 20px;
+            height: 5px;
+          "
+        >
+          Для мобильных версий
+        </p>
+      </div>
+    </div>
+
+    <hr style="margin-top: 3%" />
+    <p
+      style="
+        color: #77838f;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+      "
+    >
+      © 2021 TutorGo. Все права защищены.
+    </p>
+  </footer>
+
+  <script
+    type="module"
+    src="https://www.gstatic.com/firebasejs/9.6.1/firebase-storage.js"
+  ></script>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+    import {
+      getFirestore,
+      doc,
+      getDoc,
+      getDocs,
+      collection,
+    } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
+    import {
+      getDatabase,
+      set,
+      ref,
+      update,
+    } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
+    import {
+      getAuth,
+      createUserWithEmailAndPassword,
+      signInWithEmailAndPassword,
+    } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAmwQKEL0BnbHVdP214UbQaXfpiZjT-I-8",
+      authDomain: "authentication-app-5ec8c.firebaseapp.com",
+      databaseURL:
+        "https://authentication-app-5ec8c-default-rtdb.firebaseio.com",
+      projectId: "authentication-app-5ec8c",
+      storageBucket: "authentication-app-5ec8c.appspot.com",
+      messagingSenderId: "580625998147",
+      appId: "1:580625998147:web:8523a08640644119160ff6",
+    };
+
+    const firebase = window.firebase;
+    if (false) {
+      firebase.initializeApp(firebaseConfig);
+    }
+
+    var storage = firebase.storage();
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const auth = getAuth();
+
+    sighUp.addEventListener("click", (e) => {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      var username = document.getElementById("username").value;
+
+      createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          const user = userCredential.user;
+
+          set(ref(database, "users/" + user.uid), {
+            username: username,
+            email: email,
+          });
+
+          alert("user created");
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+
+          alert(errorMessage);
+        });
+    });
+
+    login.addEventListener("click", (e) => {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      var username = document.getElementById("username").value;
+      signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Signed in
+          const user = userCredential.user;
+
+          const dt = new Date();
+          update(ref(database, "users/" + user.uid), {
+            last_login: dt,
+          });
+          // ...
+          alert("you logged in");
+          document.getElementById("user_div").style.display = "block";
+          document.getElementById("login_div").style.display = "none";
+          document.getElementById("enter").innerText = username;
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+        });
+    });
+
+    firebase.initializeApp(firebaseConfig);
+    console.log(firebase);
+
+    upload.addEventListener("click", (e) => {
+      const ref = firebase.storage().ref();
+      const file = document.querySelector("#photo").files[0];
+      const name = +new Date() + "-" + file.name;
+      const metadata = {
+        contentType: file.type,
+      };
+      const task = ref.child(name).put(file, metadata);
+      task
+        .then((snapshot) => snapshot.ref.getDownloadURL())
+        .then((url) => {
+          console.log(url);
+          document.querySelector("#image").src = url;
+        })
+        .catch(console.error);
+    });
+
+    create.addEventListener("click", (e) => {
+      var stringtext = "";
+      var textbox = document.getElementById("textbox").value;
+      document.getElementById("textbox2").textContent = textbox;
+    });
+  </script>
+</html>
